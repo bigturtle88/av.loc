@@ -8,7 +8,7 @@ class m160908_091327_phone_book extends Migration
     {
          $this->createTable('phone_book', [
             'id' => $this->primaryKey(),
-            'name' => $this->string(255),
+            'name' => $this->string(50),
             'phone_number' => $this->string(255),
             'description' => $this->text(),
             'created_at' => $this->dateTime(),
