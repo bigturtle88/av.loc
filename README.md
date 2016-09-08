@@ -17,10 +17,17 @@ Phone book (Yii2)
 --
 --
 Установка: 
-1. https://github.com/bigturtle88/av.loc.git 
 
-2. Создать БД (например av.loc)
+https://github.com/bigturtle88/av.loc.git 
 
-3. Внести настройки в файл av.loc/config/db.php (root 1234567)
+Распоковать в директорию например av.loc
 
-4. Запустить миграции php yii migrate
+Создать БД (например av.loc)
+
+Внести настройки в файл av.loc/config/db.php (root 1234567)
+
+chmod -R 777 runtime
+
+chmod -R 777 web/assets
+
+Запустить миграции php yii migrate
